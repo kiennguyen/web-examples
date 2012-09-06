@@ -1,0 +1,26 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<p>
+Mongodb example
+<p>
+<div id="list">
+       <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Colour</th>
+                <th>Top speed</th>
+            </tr>
+        </thead>
+        <tbody>
+            #{list cars, as:'car'}
+                <tr>
+                    <td>${car.name}</td>
+                    <td>${car.colour}</td>
+                    <td>${car.topSpeed}</td>
+                </tr>
+            #{/list}
+        </tbody>
+    </table>
+</div>

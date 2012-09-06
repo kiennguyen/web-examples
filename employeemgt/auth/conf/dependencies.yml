@@ -1,0 +1,4 @@
+self: play -> auth 0.1
+
+require:
+    - play -> secure $version

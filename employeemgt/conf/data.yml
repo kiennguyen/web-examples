@@ -1,0 +1,11 @@
+# Users
+
+models.User(gavin):
+    username:   guillaume
+    password:   foobar
+    name:       Guillaume Bort
+    
+models.User(demo):
+    username:   demo
+    password:   demo
+    name:       Demo User

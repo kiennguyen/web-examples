@@ -1,0 +1,12 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+Welcome ${user}!
+		<ul id="tools">
+       <li>
+           <a href="@{Secure.logout()}">Log out</a>
+       </li>
+    </ul>
+    <p>
+        <a href="@{login()}">Login</a>
+    </p>
